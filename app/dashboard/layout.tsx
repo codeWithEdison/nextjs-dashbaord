@@ -1,3 +1,8 @@
+import { Metadata } from 'next';
+export const metadata: Metadata = {
+  title: 'Invoices',
+};
+
 import SideNav from "../ui/dashboard/sidenav";
 export const experimental_ppr = true; 
 
